@@ -1,0 +1,1 @@
+(\.|^)(relution\.io|relution\.de|ist-mdm\.de|business\.apple\.com|school\.apple\.com|axm-adm-mdm\.apple\.com|axm-adm-enroll\.apple\.com|iprofiles\.apple\.com|mdmenrollment\.apple\.com|deviceenrollment\.apple\.com)$

@@ -1,0 +1,30 @@
+# kgs-tarmstedt-mdm-dns
+# Pi-hole Blocklist: MDM-/Enrollment-Domains
+# Format: ABP-Stil (||domain^) sperrt Domain + alle Subdomains (Pi-hole v6),
+# darunter zusätzlich die reinen Domains als Fallback (sperren nur die exakte Domain).
+
+# --- ABP-Stil (inkl. Subdomains) ---
+||decon.relution.io^
+||relution.io^
+||relution.de^
+||ist-mdm.de^
+||business.apple.com^
+||school.apple.com^
+||axm-adm-mdm.apple.com^
+||axm-adm-enroll.apple.com^
+||iprofiles.apple.com^
+||mdmenrollment.apple.com^
+||deviceenrollment.apple.com^
+
+# --- Fallback: exakte Domains ---
+decon.relution.io
+relution.io
+relution.de
+ist-mdm.de
+business.apple.com
+school.apple.com
+axm-adm-mdm.apple.com
+axm-adm-enroll.apple.com
+iprofiles.apple.com
+mdmenrollment.apple.com
+deviceenrollment.apple.com
